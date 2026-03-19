@@ -1,0 +1,249 @@
+.motivationalCard {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 22px;
+  margin-bottom: 24px;
+  background: rgba(16, 185, 129, 0.05) !important;
+  border-color: rgba(16, 185, 129, 0.15) !important;
+}
+
+.motivationalCard span {
+  font-size: 1.5rem;
+}
+
+.motivationalCard p {
+  color: #a0d8c8;
+  font-size: 0.95rem;
+}
+
+/* Summary Row */
+.summaryRow {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.statCard {
+  text-align: center;
+  padding: 20px 12px;
+}
+
+.statNum {
+  font-size: 1.6rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #6366f1, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.statLbl {
+  font-size: 0.7rem;
+  color: #6b6b82;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 4px;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+/* Tips */
+.tipsCard {
+  padding: 20px 24px;
+  margin-bottom: 28px;
+  background: rgba(99, 102, 241, 0.05) !important;
+  border-color: rgba(99, 102, 241, 0.12) !important;
+}
+
+.tipsCard h3 {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.tipsCard ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tipsCard li {
+  padding-left: 20px;
+  position: relative;
+  color: #c0c0d8;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.tipsCard li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #6366f1;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, #6366f1, #06b6d4, #10b981);
+  opacity: 0.3;
+}
+
+.phase {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.phaseHeader {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.phaseDot {
+  position: absolute;
+  left: -40px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  background: #1a1a2e;
+  border: 2px solid #6366f1;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.phaseHeader h3 {
+  font-size: 1.15rem;
+  margin-bottom: 2px;
+}
+
+.phaseHeader p {
+  color: #a0a0b8;
+  font-size: 0.85rem;
+}
+
+.phaseTime {
+  font-size: 0.75rem;
+  color: #6366f1;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.phaseItems {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Course Card */
+.courseCard {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  align-items: flex-start;
+  transition: all 0.2s ease;
+}
+
+.courseCard:hover {
+  transform: translateX(4px) !important;
+}
+
+.courseCard.completed {
+  opacity: 0.6;
+  background: rgba(16, 185, 129, 0.03) !important;
+  border-color: rgba(16, 185, 129, 0.15) !important;
+}
+
+.courseCard.completed h4 {
+  text-decoration: line-through;
+  color: #6b6b82;
+}
+
+.courseCheck {
+  cursor: pointer;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.courseContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.courseTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.courseTop h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.courseBadges {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.courseMeta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: #6b6b82;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .summaryRow {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .timeline {
+    padding-left: 30px;
+  }
+
+  .phaseDot {
+    left: -30px;
+    width: 28px;
+    height: 28px;
+    font-size: 0.85rem;
+  }
+
+  .courseTop {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .summaryRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "categories": [
+    {
+      "id": "programming_languages",
+      "name": "Programming Languages",
+      "icon": "💻",
+      "skills": [
+        { "id": "python", "name": "Python", "aliases": ["py", "python3"] },
+        { "id": "javascript", "name": "JavaScript", "aliases": ["js", "ES6", "ecmascript"] },
+        { "id": "typescript", "name": "TypeScript", "aliases": ["ts"] },
+        { "id": "java", "name": "Java", "aliases": ["jdk", "jvm"] },
+        { "id": "csharp", "name": "C#", "aliases": ["c-sharp", "dotnet", ".net"] },
+        { "id": "cpp", "name": "C++", "aliases": ["cplusplus"] },
+        { "id": "go", "name": "Go", "aliases": ["golang"] },
+        { "id": "rust", "name": "Rust", "aliases": [] },
+        { "id": "ruby", "name": "Ruby", "aliases": ["rb"] },
+        { "id": "php", "name": "PHP", "aliases": [] },
+        { "id": "swift", "name": "Swift", "aliases": [] },
+        { "id": "kotlin", "name": "Kotlin", "aliases": ["kt"] },
+        { "id": "scala", "name": "Scala", "aliases": [] },
+        { "id": "r_lang", "name": "R", "aliases": ["r-language", "rstats"] },
+        { "id": "sql", "name": "SQL", "aliases": ["structured query language"] },
+        { "id": "bash", "name": "Bash/Shell", "aliases": ["shell", "sh", "bash scripting", "shell scripting"] }
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend Development",
+      "icon": "🎨",
+      "skills": [
+        { "id": "react", "name": "React", "aliases": ["reactjs", "react.js"] },
+        { "id": "angular", "name": "Angular", "aliases": ["angularjs"] },
+        { "id": "vue", "name": "Vue.js", "aliases": ["vuejs", "vue"] },
+        { "id": "nextjs", "name": "Next.js", "aliases": ["nextjs"] },
+        { "id": "svelte", "name": "Svelte", "aliases": ["sveltekit"] },
+        { "id": "html_css", "name": "HTML/CSS", "aliases": ["html5", "css3", "html", "css"] },
+        { "id": "tailwind", "name": "Tailwind CSS", "aliases": ["tailwindcss"] },
+        { "id": "sass", "name": "Sass/SCSS", "aliases": ["scss"] },
+        { "id": "webpack", "name": "Webpack", "aliases": [] },
+        { "id": "vite", "name": "Vite", "aliases": [] },
+        { "id": "redux", "name": "Redux", "aliases": ["react-redux"] },
+        { "id": "graphql_client", "name": "GraphQL (Client)", "aliases": ["apollo client"] },
+        { "id": "responsive_design", "name": "Responsive Design", "aliases": ["mobile-first", "media queries"] },
+        { "id": "accessibility", "name": "Web Accessibility", "aliases": ["a11y", "wcag", "aria"] }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend Development",
+      "icon": "⚙️",
+      "skills": [
+        { "id": "nodejs", "name": "Node.js", "aliases": ["node", "express", "expressjs"] },
+        { "id": "django", "name": "Django", "aliases": ["django rest framework", "drf"] },
+        { "id": "flask", "name": "Flask", "aliases": [] },
+        { "id": "fastapi", "name": "FastAPI", "aliases": [] },
+        { "id": "spring", "name": "Spring Boot", "aliases": ["spring framework", "spring"] },
+        { "id": "rails", "name": "Ruby on Rails", "aliases": ["rails"] },
+        { "id": "dotnet_backend", "name": "ASP.NET", "aliases": ["asp.net core", ".net core"] },
+        { "id": "rest_api", "name": "REST API Design", "aliases": ["restful", "api design"] },
+        { "id": "graphql_server", "name": "GraphQL (Server)", "aliases": [] },
+        { "id": "microservices", "name": "Microservices", "aliases": ["microservice architecture"] },
+        { "id": "websockets", "name": "WebSockets", "aliases": ["socket.io", "real-time"] },
+        { "id": "authentication", "name": "Authentication/OAuth", "aliases": ["jwt", "oauth2", "auth"] }
+      ]
+    },
+    {
+      "id": "cloud_platforms",
+      "name": "Cloud & Infrastructure",
+      "icon": "☁️",
+      "skills": [
+        { "id": "aws", "name": "AWS", "aliases": ["amazon web services", "ec2", "s3", "lambda"] },
+        { "id": "azure", "name": "Microsoft Azure", "aliases": ["azure"] },
+        { "id": "gcp", "name": "Google Cloud Platform", "aliases": ["gcp", "google cloud"] },
+        { "id": "docker", "name": "Docker", "aliases": ["containerization", "containers"] },
+        { "id": "kubernetes", "name": "Kubernetes", "aliases": ["k8s"] },
+        { "id": "terraform", "name": "Terraform", "aliases": ["infrastructure as code", "iac"] },
+        { "id": "ansible", "name": "Ansible", "aliases": [] },
+        { "id": "serverless", "name": "Serverless", "aliases": ["lambda", "cloud functions"] },
+        { "id": "linux", "name": "Linux Administration", "aliases": ["linux", "ubuntu", "centos", "rhel"] },
+        { "id": "networking", "name": "Networking", "aliases": ["tcp/ip", "dns", "load balancing", "vpc"] }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps & CI/CD",
+      "icon": "🔄",
+      "skills": [
+        { "id": "cicd", "name": "CI/CD Pipelines", "aliases": ["continuous integration", "continuous deployment"] },
+        { "id": "jenkins", "name": "Jenkins", "aliases": [] },
+        { "id": "github_actions", "name": "GitHub Actions", "aliases": [] },
+        { "id": "gitlab_ci", "name": "GitLab CI", "aliases": [] },
+        { "id": "git", "name": "Git/Version Control", "aliases": ["git", "github", "gitlab", "version control"] },
+        { "id": "monitoring", "name": "Monitoring & Logging", "aliases": ["prometheus", "grafana", "elk", "datadog", "splunk"] },
+        { "id": "nginx", "name": "Nginx/Apache", "aliases": ["apache", "reverse proxy", "web server"] },
+        { "id": "helm", "name": "Helm Charts", "aliases": ["helm"] }
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "Databases",
+      "icon": "🗄️",
+      "skills": [
+        { "id": "postgresql", "name": "PostgreSQL", "aliases": ["postgres"] },
+        { "id": "mysql", "name": "MySQL", "aliases": [] },
+        { "id": "mongodb", "name": "MongoDB", "aliases": ["mongo", "nosql"] },
+        { "id": "redis", "name": "Redis", "aliases": ["caching"] },
+        { "id": "elasticsearch", "name": "Elasticsearch", "aliases": ["elastic"] },
+        { "id": "dynamodb", "name": "DynamoDB", "aliases": [] },
+        { "id": "firebase_db", "name": "Firebase/Firestore", "aliases": ["firestore"] },
+        { "id": "cassandra", "name": "Cassandra", "aliases": [] },
+        { "id": "data_modeling", "name": "Data Modeling", "aliases": ["database design", "schema design", "erd"] }
+      ]
+    },
+    {
+      "id": "data_science",
+      "name": "Data Science & ML",
+      "icon": "🤖",
+      "skills": [
+        { "id": "machine_learning", "name": "Machine Learning", "aliases": ["ml", "supervised learning", "unsupervised learning"] },
+        { "id": "deep_learning", "name": "Deep Learning", "aliases": ["neural networks", "dl"] },
+        { "id": "nlp", "name": "Natural Language Processing", "aliases": ["nlp", "text processing"] },
+        { "id": "computer_vision", "name": "Computer Vision", "aliases": ["cv", "image recognition"] },
+        { "id": "tensorflow", "name": "TensorFlow", "aliases": ["tf"] },
+        { "id": "pytorch", "name": "PyTorch", "aliases": ["torch"] },
+        { "id": "pandas", "name": "Pandas/NumPy", "aliases": ["numpy", "data analysis"] },
+        { "id": "scikit_learn", "name": "Scikit-Learn", "aliases": ["sklearn"] },
+        { "id": "data_visualization", "name": "Data Visualization", "aliases": ["matplotlib", "seaborn", "plotly", "d3"] },
+        { "id": "statistics", "name": "Statistics", "aliases": ["statistical analysis", "probability"] },
+        { "id": "big_data", "name": "Big Data", "aliases": ["spark", "hadoop", "kafka"] },
+        { "id": "mlops", "name": "MLOps", "aliases": ["ml engineering", "model deployment"] }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Cybersecurity",
+      "icon": "🔒",
+      "skills": [
+        { "id": "network_security", "name": "Network Security", "aliases": ["firewalls", "ids", "ips", "siem"] },
+        { "id": "penetration_testing", "name": "Penetration Testing", "aliases": ["pen testing", "ethical hacking"] },
+        { "id": "security_frameworks", "name": "Security Frameworks", "aliases": ["nist", "iso 27001", "soc 2"] },
+        { "id": "cryptography", "name": "Cryptography", "aliases": ["encryption", "ssl", "tls"] },
+        { "id": "cloud_security", "name": "Cloud Security", "aliases": ["aws security", "azure security"] },
+        { "id": "incident_response", "name": "Incident Response", "aliases": ["ir", "forensics"] },
+        { "id": "vulnerability_assessment", "name": "Vulnerability Assessment", "aliases": ["vulnerability scanning", "nessus"] },
+        { "id": "identity_management", "name": "Identity & Access Management", "aliases": ["iam", "sso", "ldap", "active directory"] },
+        { "id": "devsecops", "name": "DevSecOps", "aliases": ["security automation"] },
+        { "id": "threat_modeling", "name": "Threat Modeling", "aliases": ["threat analysis"] }
+      ]
+    },
+    {
+      "id": "soft_skills",
+      "name": "Professional Skills",
+      "icon": "🤝",
+      "skills": [
+        { "id": "agile", "name": "Agile/Scrum", "aliases": ["scrum", "kanban", "sprint", "jira"] },
+        { "id": "communication", "name": "Communication", "aliases": ["technical writing", "presentation"] },
+        { "id": "leadership", "name": "Leadership", "aliases": ["team lead", "mentoring"] },
+        { "id": "problem_solving", "name": "Problem Solving", "aliases": ["analytical thinking", "critical thinking"] },
+        { "id": "system_design", "name": "System Design", "aliases": ["architecture", "scalability", "high-level design"] },
+        { "id": "project_management", "name": "Project Management", "aliases": ["pm", "stakeholder management"] }
+      ]
+    }
+  ]
+}

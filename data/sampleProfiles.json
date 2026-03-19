@@ -1,0 +1,30 @@
+[
+  {
+    "id": "profile-1",
+    "name": "Alex Chen — Recent CS Graduate",
+    "summary": "Fresh computer science graduate with strong Python and web basics. Built several university projects but limited industry exposure.",
+    "resumeText": "EDUCATION\nBachelor of Science in Computer Science, State University, 2024\nGPA: 3.7/4.0\n\nSKILLS\nProgramming: Python, JavaScript, Java, SQL, HTML/CSS\nFrameworks: React (basics), Flask\nTools: Git, VS Code, Linux\nOther: Data Structures & Algorithms, Object-Oriented Programming\n\nPROJECTS\n- Built a task management web app using Flask and SQLite\n- Created a weather dashboard using React and OpenWeather API\n- Implemented sorting algorithm visualizer in JavaScript\n\nCOURSEWORK\nDatabase Systems, Operating Systems, Computer Networks, Software Engineering, Machine Learning (intro)",
+    "skills": ["python", "javascript", "java", "sql", "html_css", "react", "flask", "git", "linux", "problem_solving"]
+  },
+  {
+    "id": "profile-2",
+    "name": "Priya Sharma — Career Switcher (Marketing → Tech)",
+    "summary": "Marketing professional with 3 years of experience transitioning to tech. Self-taught Python and data analysis. Strong communication and project management skills.",
+    "resumeText": "EXPERIENCE\nDigital Marketing Manager, BrandFirst Agency (2021-2024)\n- Managed marketing campaigns and analyzed performance data\n- Used Google Analytics and SQL for customer segmentation\n- Led cross-functional teams of 5-8 members\n- Created dashboards in Google Data Studio\n\nSKILLS\nTechnical: Python (self-taught), SQL, Google Analytics, Excel, HTML/CSS basics\nProfessional: Project Management, Communication, Team Leadership, Stakeholder Management, Agile/Scrum\nLearning: Data Science fundamentals, Pandas, Machine Learning basics\n\nCERTIFICATIONS\nGoogle Data Analytics Professional Certificate, 2024\n\nEDUCATION\nBBA in Marketing, City University, 2021",
+    "skills": ["python", "sql", "html_css", "communication", "project_management", "leadership", "agile", "pandas", "data_visualization", "statistics"]
+  },
+  {
+    "id": "profile-3",
+    "name": "Marcus Johnson — DevOps Junior",
+    "summary": "IT support technician moving into DevOps. Comfortable with Linux and scripting, learning cloud and containerization.",
+    "resumeText": "EXPERIENCE\nIT Support Technician, TechSupport Corp (2022-2024)\n- Managed Linux servers and Windows workstations\n- Wrote Bash scripts for system automation\n- Handled network troubleshooting and DNS management\n- Supported CI/CD pipeline maintenance with Jenkins\n\nSKILLS\nOS: Linux (Ubuntu, CentOS), Windows Server\nScripting: Bash, Python (basic)\nTools: Git, Jenkins (basic), Docker (learning), Nginx\nNetworking: TCP/IP, DNS, DHCP, VPN, firewalls\n\nCERTIFICATIONS\nCompTIA A+, CompTIA Network+\n\nEDUCATION\nAssociate Degree in Information Technology, Community College, 2022",
+    "skills": ["linux", "bash", "python", "git", "jenkins", "networking", "nginx", "docker", "monitoring"]
+  },
+  {
+    "id": "profile-4",
+    "name": "Sarah Kim — Frontend Developer → Full-Stack",
+    "summary": "2 years as a frontend developer, now aiming to become a full-stack engineer. Strong React skills, wants to learn backend and cloud.",
+    "resumeText": "EXPERIENCE\nFrontend Developer, WebAgency Co (2022-2024)\n- Built responsive SPAs using React, TypeScript, and Redux\n- Implemented design systems and reusable component libraries\n- Collaborated with backend team on REST API integration\n- Performed code reviews and mentored interns\n- Improved Lighthouse performance scores by 30%\n\nSKILLS\nFrontend: JavaScript, TypeScript, React, Redux, HTML/CSS, Sass, Tailwind CSS\nTools: Git, Webpack, Vite, VS Code, Figma\nTesting: Jest, React Testing Library\nOther: Responsive Design, Accessibility (WCAG 2.1), Agile/Scrum\n\nEDUCATION\nBootcamp Graduate, CodeAcademy Full-Stack Program, 2022\nBachelor of Arts in Design, Art University, 2020",
+    "skills": ["javascript", "typescript", "react", "redux", "html_css", "sass", "tailwind", "responsive_design", "accessibility", "webpack", "vite", "git", "rest_api", "agile"]
+  }
+]

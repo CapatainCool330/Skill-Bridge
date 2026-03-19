@@ -1,0 +1,470 @@
+[
+  {
+    "id": "cloud-eng-001",
+    "title": "Cloud Engineer",
+    "company": "CloudFirst Solutions",
+    "seniority": "mid",
+    "description": "Design and implement cloud infrastructure solutions on AWS and Azure. Manage containerized workloads and CI/CD pipelines.",
+    "requiredSkills": ["aws", "docker", "kubernetes", "terraform", "linux", "python", "cicd", "networking", "monitoring"],
+    "niceToHaveSkills": ["gcp", "ansible", "helm", "golang", "serverless"]
+  },
+  {
+    "id": "cloud-eng-002",
+    "title": "Cloud Infrastructure Engineer",
+    "company": "SkyNet Technologies",
+    "seniority": "senior",
+    "description": "Lead cloud migration projects and architect multi-cloud environments. Build automation frameworks for infrastructure provisioning.",
+    "requiredSkills": ["aws", "azure", "terraform", "kubernetes", "docker", "linux", "python", "cicd", "networking", "system_design"],
+    "niceToHaveSkills": ["gcp", "ansible", "serverless", "monitoring", "bash"]
+  },
+  {
+    "id": "cloud-eng-003",
+    "title": "Junior Cloud Engineer",
+    "company": "NimbusTech",
+    "seniority": "junior",
+    "description": "Assist in managing cloud resources and deploying applications. Learn and implement cloud security best practices.",
+    "requiredSkills": ["aws", "linux", "python", "docker", "git", "networking", "bash"],
+    "niceToHaveSkills": ["terraform", "kubernetes", "cicd", "monitoring"]
+  },
+  {
+    "id": "cloud-eng-004",
+    "title": "Cloud DevOps Engineer",
+    "company": "InfraScale Inc.",
+    "seniority": "mid",
+    "description": "Build and maintain CI/CD pipelines for cloud-native applications. Implement infrastructure as code and container orchestration.",
+    "requiredSkills": ["aws", "docker", "kubernetes", "terraform", "cicd", "jenkins", "github_actions", "linux", "python", "monitoring"],
+    "niceToHaveSkills": ["azure", "helm", "ansible", "serverless", "nginx"]
+  },
+  {
+    "id": "cloud-eng-005",
+    "title": "Cloud Security Engineer",
+    "company": "SecurCloud Corp",
+    "seniority": "mid",
+    "description": "Implement cloud security controls and compliance frameworks. Monitor and respond to security incidents in cloud environments.",
+    "requiredSkills": ["aws", "cloud_security", "networking", "linux", "terraform", "identity_management", "security_frameworks", "monitoring", "python"],
+    "niceToHaveSkills": ["azure", "kubernetes", "incident_response", "devsecops", "vulnerability_assessment"]
+  },
+  {
+    "id": "cloud-eng-006",
+    "title": "AWS Solutions Architect",
+    "company": "Pinnacle Systems",
+    "seniority": "senior",
+    "description": "Design scalable, fault-tolerant architectures on AWS. Lead technical discussions and provide cloud strategy guidance.",
+    "requiredSkills": ["aws", "system_design", "networking", "docker", "kubernetes", "terraform", "serverless", "python", "linux", "monitoring"],
+    "niceToHaveSkills": ["azure", "gcp", "microservices", "data_modeling", "leadership"]
+  },
+  {
+    "id": "cloud-eng-007",
+    "title": "Cloud Platform Engineer",
+    "company": "DataForge Labs",
+    "seniority": "mid",
+    "description": "Build internal developer platforms on Kubernetes. Create self-service tools for engineering teams.",
+    "requiredSkills": ["kubernetes", "docker", "aws", "terraform", "python", "cicd", "linux", "helm", "git"],
+    "niceToHaveSkills": ["go", "monitoring", "github_actions", "nginx", "microservices"]
+  },
+  {
+    "id": "cloud-eng-008",
+    "title": "Multi-Cloud Engineer",
+    "company": "OmniCloud Consulting",
+    "seniority": "senior",
+    "description": "Architect and manage workloads across AWS, Azure, and GCP. Optimize cloud costs and implement governance policies.",
+    "requiredSkills": ["aws", "azure", "gcp", "terraform", "kubernetes", "docker", "networking", "python", "linux", "monitoring"],
+    "niceToHaveSkills": ["ansible", "serverless", "system_design", "cicd", "project_management"]
+  },
+  {
+    "id": "cloud-eng-009",
+    "title": "Cloud Automation Engineer",
+    "company": "AutoScale Technologies",
+    "seniority": "mid",
+    "description": "Develop automation scripts and tools for cloud infrastructure management. Reduce manual intervention through IaC.",
+    "requiredSkills": ["python", "terraform", "aws", "ansible", "bash", "docker", "cicd", "linux", "git"],
+    "niceToHaveSkills": ["kubernetes", "go", "jenkins", "monitoring", "serverless"]
+  },
+  {
+    "id": "cloud-eng-010",
+    "title": "Site Reliability Engineer (Cloud)",
+    "company": "ReliaTech Systems",
+    "seniority": "senior",
+    "description": "Ensure high availability and performance of cloud services. Design monitoring systems and automate incident response.",
+    "requiredSkills": ["aws", "kubernetes", "docker", "monitoring", "linux", "python", "terraform", "cicd", "networking", "bash"],
+    "niceToHaveSkills": ["go", "system_design", "elasticsearch", "redis", "nginx"]
+  },
+  {
+    "id": "cloud-eng-011",
+    "title": "Cloud Network Engineer",
+    "company": "NetBridge Solutions",
+    "seniority": "mid",
+    "description": "Design and manage cloud networking infrastructure including VPCs, load balancers, and hybrid connectivity.",
+    "requiredSkills": ["aws", "networking", "linux", "terraform", "python", "docker", "monitoring", "bash"],
+    "niceToHaveSkills": ["azure", "gcp", "kubernetes", "nginx", "cloud_security"]
+  },
+  {
+    "id": "cloud-eng-012",
+    "title": "Cloud Data Engineer",
+    "company": "DataStream Inc.",
+    "seniority": "mid",
+    "description": "Build data pipelines on cloud platforms using managed services. Implement data lakes and warehousing solutions.",
+    "requiredSkills": ["aws", "python", "sql", "terraform", "docker", "linux", "big_data", "data_modeling"],
+    "niceToHaveSkills": ["gcp", "kubernetes", "serverless", "elasticsearch", "monitoring"]
+  },
+  {
+    "id": "ds-001",
+    "title": "Data Scientist",
+    "company": "AnalyticsPro",
+    "seniority": "mid",
+    "description": "Build predictive models and derive insights from large datasets. Collaborate with engineering teams to deploy models.",
+    "requiredSkills": ["python", "machine_learning", "statistics", "sql", "pandas", "scikit_learn", "data_visualization"],
+    "niceToHaveSkills": ["deep_learning", "nlp", "pytorch", "big_data", "r_lang"]
+  },
+  {
+    "id": "ds-002",
+    "title": "Senior Data Scientist",
+    "company": "InsightEngine Corp",
+    "seniority": "senior",
+    "description": "Lead data science initiatives and mentor junior team members. Design experiments and build production ML systems.",
+    "requiredSkills": ["python", "machine_learning", "deep_learning", "statistics", "sql", "pandas", "scikit_learn", "data_visualization", "system_design"],
+    "niceToHaveSkills": ["pytorch", "tensorflow", "mlops", "big_data", "leadership", "nlp"]
+  },
+  {
+    "id": "ds-003",
+    "title": "Junior Data Analyst",
+    "company": "DataWise Solutions",
+    "seniority": "junior",
+    "description": "Analyze datasets and create reports for business stakeholders. Build dashboards and support data-driven decisions.",
+    "requiredSkills": ["python", "sql", "statistics", "data_visualization", "pandas"],
+    "niceToHaveSkills": ["r_lang", "machine_learning", "scikit_learn", "communication"]
+  },
+  {
+    "id": "ds-004",
+    "title": "ML Engineer",
+    "company": "NeuralForge AI",
+    "seniority": "mid",
+    "description": "Build and deploy machine learning models at scale. Optimize model performance and maintain ML pipelines.",
+    "requiredSkills": ["python", "machine_learning", "deep_learning", "pytorch", "docker", "mlops", "sql", "linux", "git"],
+    "niceToHaveSkills": ["tensorflow", "kubernetes", "aws", "big_data", "cicd"]
+  },
+  {
+    "id": "ds-005",
+    "title": "NLP Engineer",
+    "company": "LinguaTech",
+    "seniority": "mid",
+    "description": "Develop NLP pipelines for text classification, entity extraction, and sentiment analysis. Fine-tune large language models.",
+    "requiredSkills": ["python", "nlp", "machine_learning", "deep_learning", "pytorch", "statistics", "pandas"],
+    "niceToHaveSkills": ["tensorflow", "mlops", "docker", "fastapi", "big_data"]
+  },
+  {
+    "id": "ds-006",
+    "title": "Computer Vision Engineer",
+    "company": "VisionAI Labs",
+    "seniority": "mid",
+    "description": "Build image and video processing pipelines. Develop and deploy computer vision models for real-time applications.",
+    "requiredSkills": ["python", "computer_vision", "deep_learning", "pytorch", "machine_learning", "linux", "docker"],
+    "niceToHaveSkills": ["tensorflow", "mlops", "aws", "cpp", "cuda"]
+  },
+  {
+    "id": "ds-007",
+    "title": "Data Science Manager",
+    "company": "Stratify Analytics",
+    "seniority": "senior",
+    "description": "Manage a team of data scientists and align projects with business objectives. Drive data strategy and ML adoption.",
+    "requiredSkills": ["python", "machine_learning", "statistics", "leadership", "communication", "project_management", "sql", "system_design"],
+    "niceToHaveSkills": ["deep_learning", "mlops", "agile", "big_data", "data_visualization"]
+  },
+  {
+    "id": "fe-001",
+    "title": "Frontend Developer",
+    "company": "PixelPerfect Studios",
+    "seniority": "mid",
+    "description": "Build responsive and accessible web applications using React. Implement pixel-perfect designs and optimize performance.",
+    "requiredSkills": ["javascript", "react", "html_css", "responsive_design", "git", "typescript", "redux"],
+    "niceToHaveSkills": ["nextjs", "tailwind", "webpack", "accessibility", "graphql_client"]
+  },
+  {
+    "id": "fe-002",
+    "title": "Senior Frontend Engineer",
+    "company": "UXFlow Technologies",
+    "seniority": "senior",
+    "description": "Architect frontend systems and establish best practices. Lead code reviews and mentor junior developers.",
+    "requiredSkills": ["javascript", "typescript", "react", "html_css", "responsive_design", "webpack", "git", "system_design", "accessibility"],
+    "niceToHaveSkills": ["nextjs", "vue", "graphql_client", "tailwind", "leadership"]
+  },
+  {
+    "id": "fe-003",
+    "title": "Junior Frontend Developer",
+    "company": "WebCraft Inc.",
+    "seniority": "junior",
+    "description": "Develop UI components and implement designs. Learn modern frontend frameworks and best practices.",
+    "requiredSkills": ["javascript", "html_css", "react", "responsive_design", "git"],
+    "niceToHaveSkills": ["typescript", "sass", "tailwind", "redux", "vite"]
+  },
+  {
+    "id": "fe-004",
+    "title": "React Native Developer",
+    "company": "MobileFirst Labs",
+    "seniority": "mid",
+    "description": "Build cross-platform mobile applications using React Native. Integrate with native modules and APIs.",
+    "requiredSkills": ["javascript", "react", "typescript", "html_css", "git", "rest_api", "redux"],
+    "niceToHaveSkills": ["swift", "kotlin", "graphql_client", "cicd", "responsive_design"]
+  },
+  {
+    "id": "fe-005",
+    "title": "UI/UX Developer",
+    "company": "DesignTech Studios",
+    "seniority": "mid",
+    "description": "Bridge the gap between design and development. Create interactive prototypes and implement design systems.",
+    "requiredSkills": ["javascript", "html_css", "react", "responsive_design", "accessibility", "sass", "git"],
+    "niceToHaveSkills": ["typescript", "vue", "svelte", "tailwind", "communication"]
+  },
+  {
+    "id": "be-001",
+    "title": "Backend Developer",
+    "company": "ServerLogic Corp",
+    "seniority": "mid",
+    "description": "Design and implement RESTful APIs and microservices. Manage databases and ensure application performance.",
+    "requiredSkills": ["python", "django", "postgresql", "rest_api", "docker", "git", "sql", "linux"],
+    "niceToHaveSkills": ["redis", "microservices", "aws", "cicd", "mongodb"]
+  },
+  {
+    "id": "be-002",
+    "title": "Senior Backend Engineer",
+    "company": "ScaleUp Technologies",
+    "seniority": "senior",
+    "description": "Architect scalable backend systems and lead technical decisions. Optimize database performance and system reliability.",
+    "requiredSkills": ["python", "java", "postgresql", "rest_api", "microservices", "docker", "kubernetes", "system_design", "sql", "git"],
+    "niceToHaveSkills": ["redis", "mongodb", "aws", "graphql_server", "monitoring", "leadership"]
+  },
+  {
+    "id": "be-003",
+    "title": "Node.js Backend Developer",
+    "company": "APIHub Solutions",
+    "seniority": "mid",
+    "description": "Build high-performance APIs with Node.js and Express. Implement real-time features using WebSockets.",
+    "requiredSkills": ["javascript", "nodejs", "typescript", "mongodb", "rest_api", "docker", "git", "sql"],
+    "niceToHaveSkills": ["redis", "websockets", "aws", "graphql_server", "postgresql"]
+  },
+  {
+    "id": "be-004",
+    "title": "Java Backend Developer",
+    "company": "EnterpriseCore Systems",
+    "seniority": "mid",
+    "description": "Develop enterprise-grade microservices with Spring Boot. Ensure code quality and test coverage.",
+    "requiredSkills": ["java", "spring", "postgresql", "rest_api", "docker", "git", "sql", "microservices"],
+    "niceToHaveSkills": ["kubernetes", "redis", "mongodb", "cicd", "monitoring"]
+  },
+  {
+    "id": "be-005",
+    "title": "Go Backend Developer",
+    "company": "ConcurrentSys Inc.",
+    "seniority": "mid",
+    "description": "Build high-concurrency services in Go. Design efficient data processing pipelines.",
+    "requiredSkills": ["go", "rest_api", "postgresql", "docker", "linux", "git", "sql"],
+    "niceToHaveSkills": ["kubernetes", "redis", "microservices", "monitoring", "cicd"]
+  },
+  {
+    "id": "devops-001",
+    "title": "DevOps Engineer",
+    "company": "PipelineForge",
+    "seniority": "mid",
+    "description": "Build and maintain CI/CD pipelines. Automate infrastructure provisioning and application deployments.",
+    "requiredSkills": ["docker", "kubernetes", "cicd", "terraform", "aws", "linux", "python", "git", "jenkins", "monitoring"],
+    "niceToHaveSkills": ["ansible", "helm", "github_actions", "nginx", "bash"]
+  },
+  {
+    "id": "devops-002",
+    "title": "Senior DevOps Engineer",
+    "company": "AutoDeploy Systems",
+    "seniority": "senior",
+    "description": "Lead DevOps transformation initiatives. Design platform engineering solutions and establish SRE practices.",
+    "requiredSkills": ["docker", "kubernetes", "terraform", "aws", "cicd", "linux", "python", "monitoring", "system_design", "git"],
+    "niceToHaveSkills": ["azure", "gcp", "helm", "ansible", "go", "leadership"]
+  },
+  {
+    "id": "devops-003",
+    "title": "Junior DevOps Engineer",
+    "company": "CloudOps Startup",
+    "seniority": "junior",
+    "description": "Assist in managing CI/CD pipelines and cloud infrastructure. Learn containerization and automation.",
+    "requiredSkills": ["linux", "docker", "git", "python", "bash", "aws", "cicd"],
+    "niceToHaveSkills": ["terraform", "kubernetes", "jenkins", "monitoring", "ansible"]
+  },
+  {
+    "id": "devops-004",
+    "title": "Platform Engineer",
+    "company": "PlatformOne Corp",
+    "seniority": "senior",
+    "description": "Build internal developer platforms and self-service tools. Improve developer experience and productivity.",
+    "requiredSkills": ["kubernetes", "docker", "terraform", "aws", "python", "cicd", "linux", "helm", "git", "system_design"],
+    "niceToHaveSkills": ["go", "monitoring", "github_actions", "microservices", "nginx"]
+  },
+  {
+    "id": "devops-005",
+    "title": "Release Engineer",
+    "company": "ShipFast Inc.",
+    "seniority": "mid",
+    "description": "Manage release processes and deployment strategies. Implement blue-green and canary deployments.",
+    "requiredSkills": ["cicd", "docker", "git", "linux", "python", "jenkins", "aws", "monitoring"],
+    "niceToHaveSkills": ["kubernetes", "terraform", "github_actions", "bash", "helm"]
+  },
+  {
+    "id": "cyber-001",
+    "title": "Cybersecurity Analyst",
+    "company": "SecureShield Corp",
+    "seniority": "mid",
+    "description": "Monitor security events and respond to incidents. Conduct vulnerability assessments and security audits.",
+    "requiredSkills": ["network_security", "vulnerability_assessment", "incident_response", "security_frameworks", "linux", "python", "monitoring"],
+    "niceToHaveSkills": ["penetration_testing", "cloud_security", "cryptography", "identity_management", "threat_modeling"]
+  },
+  {
+    "id": "cyber-002",
+    "title": "Senior Security Engineer",
+    "company": "CyberFortress Inc.",
+    "seniority": "senior",
+    "description": "Design and implement security architecture. Lead security initiatives and establish security best practices.",
+    "requiredSkills": ["network_security", "cloud_security", "security_frameworks", "penetration_testing", "python", "linux", "identity_management", "cryptography", "system_design"],
+    "niceToHaveSkills": ["devsecops", "threat_modeling", "incident_response", "aws", "kubernetes"]
+  },
+  {
+    "id": "cyber-003",
+    "title": "Junior Security Analyst",
+    "company": "WatchTower Security",
+    "seniority": "junior",
+    "description": "Assist in monitoring security dashboards and triaging alerts. Learn security tools and incident response procedures.",
+    "requiredSkills": ["network_security", "linux", "python", "monitoring", "security_frameworks"],
+    "niceToHaveSkills": ["vulnerability_assessment", "incident_response", "bash", "cryptography"]
+  },
+  {
+    "id": "cyber-004",
+    "title": "Penetration Tester",
+    "company": "RedTeam Labs",
+    "seniority": "mid",
+    "description": "Conduct penetration tests on web applications and network infrastructure. Write detailed findings reports.",
+    "requiredSkills": ["penetration_testing", "network_security", "python", "linux", "vulnerability_assessment", "bash", "cryptography"],
+    "niceToHaveSkills": ["cloud_security", "devsecops", "identity_management", "communication"]
+  },
+  {
+    "id": "cyber-005",
+    "title": "Cloud Security Engineer",
+    "company": "CloudGuard Systems",
+    "seniority": "mid",
+    "description": "Secure cloud infrastructure and implement compliance controls. Design cloud security architectures.",
+    "requiredSkills": ["cloud_security", "aws", "network_security", "terraform", "identity_management", "security_frameworks", "python", "linux"],
+    "niceToHaveSkills": ["azure", "kubernetes", "devsecops", "monitoring", "incident_response"]
+  },
+  {
+    "id": "cyber-006",
+    "title": "Security Operations Center (SOC) Analyst",
+    "company": "AlertFirst Security",
+    "seniority": "junior",
+    "description": "Monitor SIEM dashboards and investigate security alerts. Escalate and document security incidents.",
+    "requiredSkills": ["network_security", "monitoring", "incident_response", "linux", "security_frameworks"],
+    "niceToHaveSkills": ["python", "vulnerability_assessment", "bash", "identity_management"]
+  },
+  {
+    "id": "cyber-007",
+    "title": "AppSec Engineer",
+    "company": "CodeShield Technologies",
+    "seniority": "mid",
+    "description": "Integrate security into the software development lifecycle. Conduct code reviews and implement SAST/DAST tools.",
+    "requiredSkills": ["devsecops", "python", "javascript", "vulnerability_assessment", "security_frameworks", "git", "cicd"],
+    "niceToHaveSkills": ["penetration_testing", "docker", "cloud_security", "cryptography"]
+  },
+  {
+    "id": "fs-001",
+    "title": "Full-Stack Developer",
+    "company": "StackWorks Inc.",
+    "seniority": "mid",
+    "description": "Build end-to-end web applications using React and Node.js. Manage databases and deploy to cloud platforms.",
+    "requiredSkills": ["javascript", "react", "nodejs", "html_css", "postgresql", "rest_api", "docker", "git", "sql"],
+    "niceToHaveSkills": ["typescript", "mongodb", "aws", "redis", "cicd"]
+  },
+  {
+    "id": "fs-002",
+    "title": "Senior Full-Stack Engineer",
+    "company": "WebScale Solutions",
+    "seniority": "senior",
+    "description": "Architect and build scalable full-stack applications. Mentor team members and drive technical decisions.",
+    "requiredSkills": ["javascript", "typescript", "react", "nodejs", "postgresql", "rest_api", "docker", "aws", "system_design", "git"],
+    "niceToHaveSkills": ["kubernetes", "redis", "mongodb", "graphql_server", "leadership", "cicd"]
+  },
+  {
+    "id": "fs-003",
+    "title": "Junior Full-Stack Developer",
+    "company": "LaunchPad Studios",
+    "seniority": "junior",
+    "description": "Develop features across the full stack. Learn best practices in frontend and backend development.",
+    "requiredSkills": ["javascript", "html_css", "react", "nodejs", "git", "sql"],
+    "niceToHaveSkills": ["typescript", "postgresql", "mongodb", "docker", "rest_api"]
+  },
+  {
+    "id": "fs-004",
+    "title": "Python Full-Stack Developer",
+    "company": "PyStack Corp",
+    "seniority": "mid",
+    "description": "Build full-stack applications with Django backend and React frontend. Design RESTful APIs and manage data models.",
+    "requiredSkills": ["python", "django", "javascript", "react", "html_css", "postgresql", "rest_api", "git", "sql"],
+    "niceToHaveSkills": ["docker", "aws", "redis", "typescript", "cicd"]
+  },
+  {
+    "id": "fs-005",
+    "title": "MEAN/MERN Stack Developer",
+    "company": "JSNation Labs",
+    "seniority": "mid",
+    "description": "Build modern web apps using the MERN stack. Implement real-time features and progressive web app capabilities.",
+    "requiredSkills": ["javascript", "react", "nodejs", "mongodb", "html_css", "rest_api", "git"],
+    "niceToHaveSkills": ["typescript", "redux", "websockets", "docker", "aws"]
+  },
+  {
+    "id": "fs-006",
+    "title": "Next.js Full-Stack Developer",
+    "company": "Vercel Partner Studio",
+    "seniority": "mid",
+    "description": "Build server-rendered React applications with Next.js. Implement API routes, authentication, and database integration.",
+    "requiredSkills": ["javascript", "typescript", "react", "nextjs", "html_css", "postgresql", "rest_api", "git"],
+    "niceToHaveSkills": ["tailwind", "docker", "aws", "mongodb", "graphql_server"]
+  },
+  {
+    "id": "ml-001",
+    "title": "Machine Learning Engineer",
+    "company": "DeepTech AI",
+    "seniority": "mid",
+    "description": "Design, train, and deploy ML models in production. Build ML pipelines and optimize model inference.",
+    "requiredSkills": ["python", "machine_learning", "deep_learning", "pytorch", "docker", "mlops", "sql", "linux", "git"],
+    "niceToHaveSkills": ["tensorflow", "kubernetes", "aws", "big_data", "cicd"]
+  },
+  {
+    "id": "ml-002",
+    "title": "Senior ML Engineer",
+    "company": "IntelliSystems AI",
+    "seniority": "senior",
+    "description": "Lead ML infrastructure and model deployment at scale. Architect end-to-end ML systems and mentor the team.",
+    "requiredSkills": ["python", "machine_learning", "deep_learning", "pytorch", "mlops", "docker", "kubernetes", "aws", "system_design", "sql"],
+    "niceToHaveSkills": ["tensorflow", "big_data", "cicd", "monitoring", "leadership"]
+  },
+  {
+    "id": "ml-003",
+    "title": "Junior ML Engineer",
+    "company": "AIStart Labs",
+    "seniority": "junior",
+    "description": "Assist in building and testing machine learning models. Learn ML engineering practices and tools.",
+    "requiredSkills": ["python", "machine_learning", "pandas", "scikit_learn", "sql", "git", "statistics"],
+    "niceToHaveSkills": ["pytorch", "docker", "deep_learning", "data_visualization", "linux"]
+  },
+  {
+    "id": "ml-004",
+    "title": "AI Research Engineer",
+    "company": "Frontier Research Corp",
+    "seniority": "senior",
+    "description": "Conduct applied AI research and publish findings. Implement state-of-the-art models and evaluate novel techniques.",
+    "requiredSkills": ["python", "deep_learning", "pytorch", "machine_learning", "statistics", "nlp", "computer_vision", "linux"],
+    "niceToHaveSkills": ["tensorflow", "big_data", "r_lang", "communication", "mlops"]
+  },
+  {
+    "id": "ml-005",
+    "title": "MLOps Engineer",
+    "company": "PipelineAI Systems",
+    "seniority": "mid",
+    "description": "Build and maintain ML deployment pipelines. Implement model monitoring, versioning, and A/B testing.",
+    "requiredSkills": ["python", "mlops", "docker", "kubernetes", "aws", "cicd", "linux", "git", "monitoring"],
+    "niceToHaveSkills": ["terraform", "machine_learning", "deep_learning", "big_data", "helm"]
+  }
+]
