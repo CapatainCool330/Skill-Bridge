@@ -1,9 +1,9 @@
 # Skill-Bridge Career Navigator
 
-**Live Demo:** [https://skill-bridge-six-opal.vercel.app/](https://skill-bridge-six-opal.vercel.app/)
-
 **Candidate Name:** Ayush Gupta
+
 **Scenario Chosen:** Skill-Bridge Career Navigator 
+
 **Estimated Time Spent:** ~5 hours  
 
 ## Quick Start
@@ -27,7 +27,10 @@
 * **What would you build next if you had more time?** 
   I would implement real user accounts with progress saving, and integrate a live API (like scraping LinkedIn or specific job boards) instead of using synthetic data files.
 * **Known limitations:** 
-  The synthetic job roles data is inherently limited to about 8 major career tracks. Searching for highly niche roles outside the `jobRoles.json` will trigger an "Unknown Role" fallback. 
+  The synthetic job roles data is inherently limited to about 8 major career tracks. Searching for highly niche roles outside the `jobRoles.json` will trigger an "Unknown Role" fallback.
+
+## Live Demo
+[Live Demo : Skills Bridge](https://skill-bridge-six-opal.vercel.app/)
 
 ## Link to Video Presentation
 
