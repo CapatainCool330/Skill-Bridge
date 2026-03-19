@@ -35,5 +35,6 @@
 [Live Demo: Skill Bridge](https://skill-bridge-six-opal.vercel.app/)
 
 ## Link to Video Presentation
+[Video Demo: Skill Bridge](https://youtu.be/vwJDCmMEZ6M)
 
 
