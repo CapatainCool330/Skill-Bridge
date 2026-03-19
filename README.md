@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Skill-Bridge Career Navigator
 
-## Getting Started
+**Live Demo:** [https://skill-bridge-six-opal.vercel.app/](https://skill-bridge-six-opal.vercel.app/)
 
-First, run the development server:
+**Candidate Name:** Ayush Gupta
+**Scenario Chosen:** Skill-Bridge Career Navigator 
+**Estimated Time Spent:** ~5 hours  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Quick Start
+* **Prerequisites:** Node.js 18.x or newer, npm/yarn.
+* **Run Commands:**
+  1. `npm install`
+  2. Copy `env.example` to `.env.local` and add your Gemini API Key.
+  3. `npm run dev`
+  4. Open `http://localhost:3000`
+* **Test Commands:**
+  Run `npm test` (Uses standard test runner to evaluate the Gap Analysis engine).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## AI Disclosure
+* **Did you use an AI assistant (Copilot, ChatGPT, etc.)?** Yes
+* **How did you verify the suggestions?** I verified AI-generated UI code by running it locally, testing responsiveness, and verifying the logic outputs for the rule-based gap analysis algorithms against expected mathematical set theory. 
+* **Give one example of a suggestion you rejected or changed:** The AI initially suggested comparing skills using exact string matching for the rule-based engine. I rejected this and implemented an ID-based system connected to a taxonomy with aliases to ensure fuzzy matching worked properly for variations like "React" vs "React.js".
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tradeoffs & Prioritization
+* **What did you cut to stay within the 4–6 hour limit?** 
+  I used mock JSON datasets instead of setting up a PostgreSQL/MongoDB database to ensure the core logic and AI fallback behaviors were prioritized. I also cut full user authentication (OAuth) to focus strictly on the core user flow (Gap Analysis -> Roadmap).
+* **What would you build next if you had more time?** 
+  I would implement real user accounts with progress saving, and integrate a live API (like scraping LinkedIn or specific job boards) instead of using synthetic data files.
+* **Known limitations:** 
+  The synthetic job roles data is inherently limited to about 8 major career tracks. Searching for highly niche roles outside the `jobRoles.json` will trigger an "Unknown Role" fallback. 
 
-## Learn More
+## Link to Video Presentation
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
